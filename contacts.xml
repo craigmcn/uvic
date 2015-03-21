@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contacts>
+  <person>
+    <name>Homer Simpson</name>
+    <phone>2505559876</phone>
+    <email>homer.simpson@powerplant.com</email>
+    <website-url src="http://en.wikipedia.org/wiki/Doughnut">Doughnuts</website-url>
+    <job-title>Safety Inspector</job-title>
+  </person>
+  <person>
+    <name>Marge Simpson</name>
+    <phone>2505559876</phone>
+    <email>N/A</email>
+    <website-url src="http://en.wikipedia.org/wiki/Secrets_of_a_Successful_Marriage">Secrets of a Successful Marriage</website-url>
+    <job-title>Housewife</job-title>
+  </person>
+  <person>
+    <name>Montgomery Burns</name>
+    <phone>7685552347</phone>
+    <email>burns@powerplant.com</email>
+    <website-url src="http://en.wikipedia.org/wiki/Money">Money</website-url>
+    <job-title>Owner and Operator of Springfield Nuclear Power Plant</job-title>
+  </person>
+  <person>
+    <name>Moe Szyslak</name>
+    <phone>2345551557</phone>
+    <email>moe@moestavern.com</email>
+    <website-url src="http://www.prankdial.com/">Prank Dial</website-url>
+    <job-title>Bartender</job-title>
+  </person>
+  <person>
+    <name>Edna Krabappel</name>
+    <phone>9805552523</phone>
+    <email>edna@springfield-elementary.com</email>
+    <website-url src="https://www.bctf.ca/">Teacher's Federation of BC</website-url>
+    <job-title>Fourth Grade Teacher</job-title>
+  </person>
+  <person>
+    <name>Ned Flanders</name>
+    <phone>6875559988</phone>
+    <email>ned@leftorium.com</email>
+    <website-url src="http://www.leftorium.com/">The Leftorium</website-url>
+    <job-title>Owner of The Leftorium</job-title>
+  </person>
+  <person>
+    <name>Krusty the Clown</name>
+    <phone>8885558987</phone>
+    <email>krusty@clowns.com</email>
+    <website-url src="http://simpsons.wikia.com/wiki/The_Krusty_the_Clown_Show_%28TV_series%29">The Krusty the Clown Show</website-url>
+    <job-title>Television clown and entertainer</job-title>
+  </person>
+</contacts>
