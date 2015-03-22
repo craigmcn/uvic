@@ -1,2 +1,9 @@
-# uvic
+# UVIC
 Projects to complete a technical test for the University of Victoria
+http://craigmcnaughton.ca/uvic/
+
+## Image rotator
+http://craigmcnaughton.ca/uvic/carousel.php
+
+## Contact list
+http://craigmcnaughton.ca/uvic/contacts.php
