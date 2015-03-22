@@ -19,7 +19,8 @@ $page_title = 'Contacts';
 
 include 'header.inc';
 
-echo '
+echo '<h1>' . $page_title . '</h1>
+
 <div class="row">' . PHP_EOL;
 
 $i = 1;
