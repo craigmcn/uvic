@@ -21,7 +21,9 @@ $css[] = 'carousel.css';
 
 include 'header.inc';
 
-echo '<div id="rotator">
+echo '<h1>' . $page_title . '</h1>
+
+<div id="rotator">
 	<img id="rotator-image" src="img/' . $images[$image][0] . '.jpg" alt="'. $images[$image][1] .'">
 	<p id="rotator-text">' . $images[$image][1] . '</p>
 	<div id="rotator-nav">
