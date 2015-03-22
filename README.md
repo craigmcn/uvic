@@ -9,4 +9,4 @@ http://craigmcnaughton.ca/uvic/carousel.php
 http://craigmcnaughton.ca/uvic/contacts.php
 
 ## Portfolio
-A portfolio folder contains sample code files for Exam Information Sheets. Screenshots are attached to issues in this project.
+A portfolio folder contains sample code files for Exam Information Sheets, Student Tracking, Expenses and Cuture Shock quiz. Screenshots are attached to issues in this project.
