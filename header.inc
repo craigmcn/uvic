@@ -1,6 +1,6 @@
 <?php
 
-$nav_menu = array('carousel' => array('carousel.php', 'Image Rotator'), 'contacts' => array('contacts.php', 'Contacts'));
+$nav_menu = array('carousel' => array('carousel.php', 'Carousel'), 'contacts' => array('contacts.php', 'Contacts'));
 
 echo '<!DOCTYPE html>
 <html lang="en">
@@ -10,8 +10,15 @@ echo '<!DOCTYPE html>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>' . $page_title . '</title>
 
-		<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+		<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">' . PHP_EOL;
 
+if (is_array($css)) {
+	foreach ($css as $v) {
+		echo '		<link href="' . $v . '" rel="stylesheet">' . PHP_EOL;
+	}
+}
+
+echo '
 		<!--[if lt IE 9]>
 		<script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 		<script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
