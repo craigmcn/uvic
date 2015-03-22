@@ -1,0 +1,61 @@
+ #rotator {
+	margin-bottom: 1em;
+	position: relative;
+}
+
+#rotator-image {
+	border-radius: 6px;
+	display: block;
+	height: auto;
+	width: 100%;
+}
+
+#rotator-text {
+	background-color: rgba(255, 255, 255, 0.6);
+	border-radius: 4px;
+	bottom: 0;
+	font-size: 1.2em;
+	font-weight: bolder;
+	margin: 1em;
+	padding: 0.5em;
+	position: absolute;
+}
+
+#rotator-nav {
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+#rotator-prev, #rotator-next {
+	width: 50%;
+	height: 100%;
+}
+
+#rotator-prev {
+	float: left;
+}
+
+#rotator-next {
+	float: right;
+	text-align: right;
+}
+
+.rotator-button {
+	height: 100%;
+}
+
+.rotator-button>a {
+	color: rgba(255, 255, 255, 0.6);
+	display: block;
+	font-size: 3em;
+	font-weight: bold;
+	height: 100%;
+	padding: 55% 1em;
+}
+
+.rotator-button>a:hover {
+	color: #fff;
+}
