@@ -23,10 +23,15 @@
 		var gallery_count = $('.gallery').length-1,
 			image_prev = ((index-1) < 0) ? gallery_count : (index-1),
 			image_next = ((index+1) > gallery_count) ? 0 : (index+1);
-		$('#rotator-image').attr('src', src);
-		$('#rotator-text').html(text);
-		$('#rotator-button-prev').data('index', image_prev);
-		$('#rotator-button-next').data('index', image_next);
+		if ($('#rotator-image').attr('src') != src) {
+			$('#rotator').prepend('<div id="loading" class="rotator-loading"><div class="rotator-loading-indicator"></div></div>');
+			$('#rotator-image').one('load', function(e){
+				$('#loading').remove();
+				}).attr('src', src);
+			$('#rotator-text').html(text);
+			$('#rotator-button-prev').data('index', image_prev);
+			$('#rotator-button-next').data('index', image_next);
+		}
 	}
 
 })(jQuery);
