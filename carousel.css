@@ -59,3 +59,28 @@
 .rotator-button>a:hover {
 	color: #fff;
 }
+
+.rotator-loading {
+	background-color: rgba(32, 32, 32, 0.6);
+	border-radius: 6px;
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 10;
+}
+
+.rotator-loading-indicator {
+	background: #000 url(img/loading.gif) 50% 50% no-repeat;
+	border-radius: 3px;
+	height: 32px;
+	left: 50%;
+	margin-left: -16px;
+	margin-top: -16px;
+	padding: 4px;
+	position: absolute;
+	top: 50%;
+	width: 32px;
+	z-index: 11;
+}
